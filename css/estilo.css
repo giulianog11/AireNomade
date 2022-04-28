@@ -1,0 +1,67 @@
+main section h1 {
+  font-style: "Maven Pro", sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  color: whitesmoke;
+  background-image: url(../media/img/Car1.png);
+  padding: 10rem;
+  background-size: cover; }
+
+main .card:hover {
+  transform: scale(1.05);
+  transition: 2s all; }
+
+main .btn {
+  background-color: #A9937B;
+  color: black; }
+  main .btn:hover {
+    background-color: #755D45; }
+
+main h2 {
+  font-style: "Fredoka", sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px; }
+
+main .campo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+main .camp {
+  width: 400px;
+  margin-bottom: 30px; }
+  main .camp:hover {
+    transform: scale(1.1);
+    transition: 4s ease-in-out; }
+
+main .an:hover {
+  transform: scale(1.3);
+  transition: all 4s; }
+
+header .nav-color {
+  opacity: 0.8;
+  font-size: 1.2rem; }
+
+header .nav-link {
+  color: black; }
+
+header .hover:hover {
+  transform: scale(1.05);
+  transition: 100ms ease; }
+
+footer {
+  background-color: black; }
+  footer h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: "Maven Pro", sans-serif;
+    color: white; }
+  footer .redess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  footer .logo2 {
+    width: 40px;
+    padding-right: 5px;
+    padding-left: 5px; }

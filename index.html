@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- link letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Maven+Pro:wght@800&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Desafio SASS</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light nav-color">
+            <div class="container-fluid">
+                <a class="navbar-brand hover" href="./index.html"><img src="./media/img/logo1.png" width="150px" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item hover">
+                    <a class="nav-link" href="./paginas/combospremium.html">Combos Premium</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover" href="./paginas/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover" href="./paginas/ofertas.html">
+                        Ofertas</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+    </header>
+    <main class="container-fluid">
+        <section>
+            <h1>EL PLACER DE VIAJAR</h1>
+        </section>
+            <h2>PRODUCTOS DESTACADOS</h2>
+        <div class="row justify-content-around">
+          <div class="card" style="width: 18rem; margin-bottom: 10px;">
+              <img src="./media/img/Card1.jpg" class="card-img-top p-2 card1" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mate Imperial de Alpaca Cincelado</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; margin-bottom: 10px">
+              <img src="./media/img/Card2.jpg" class="card-img-top p-2 card1" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mate Torpedo + Bombilla de Alpaca</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; margin-bottom: 10px">
+              <img src="./media/img/Card3.jpg" class="card-img-top p-2 card1" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Combo AN1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+              </div>
+            </div>
+        </div>
+        <div>
+            <h2>¿VENTAJAS DE TOMAR MATE?</h2>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis molestiae deleniti illum aliquam ut eum! Maiores repellat voluptas magnam quos quaerat, nisi rem ex suscipit, amet mollitia maxime repellendus aspernatur a ducimus voluptatem ipsum cupiditate tempore harum qui saepe temporibus. Molestiae sed illum ducimus nihil repellendus est eum consequatur saepe, enim excepturi harum eligendi quod suscipit incidunt, similique cupiditate officiis! Consequatur, non. Dolorum explicabo sequi voluptatibus ullam officia, autem amet incidunt distinctio magni hic dignissimos voluptatem porro nam labore dolorem animi exercitationem delectus quasi eveniet! Odio aliquid ex aut ducimus voluptatem ratione tenetur magnam consequuntur quam quibusdam itaque, cum atque?</p>
+        </div>
+        <div class="campo">
+            <img src="./media/img/nie1.jpg" class="camp" alt="nie">
+            <img src="./media/img/nie2.jpg" class="camp" alt="nie2">
+        </div>
+        <section class="p-3 mt-4 contacto">
+            <div class="row">
+              <article class="col-md-6">
+                <img src="./media/img/Se nomade.png" class="mx-auto d-block an" style="width: 60%" alt="se nomade">
+              </article>
+              <article class="col-md-6">
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                  </div>
+                  <div class="col-md-8">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputZip" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Recordarme
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+                </form>
+              </article>
+            </section>
+            </div>
+        
+    </main>
+    <footer class="container-fluid">
+        <div>
+          <h2 class="pt-5">EL MOVIMIENTO ES VIDA Y SI TENÉS UN MATE, MEJOR</h2>
+        </div>
+        <div class="redess">
+          <a href="https://www.instagram.com/matesairenomade/?hl=es-la" target="_blank"><img class="logo2" src="./media/img/logoIG.png" alt="instagram"></a>
+          <a href="" target="_blank"><img class="logo2" src="./media/img/logoFB.png" alt="facebook"></a>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
