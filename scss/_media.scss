@@ -1,0 +1,27 @@
+$parrafo: 'Montserrat', sans-serif;
+
+@media only screen and (max-width: 850px){
+    .benef1{
+        background-image: url(../media/img/nie11.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .structure{
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .parrafo1{
+        color: white;
+        font-weight: bold;
+        font-family: $parrafo;
+        width: 100%;
+        padding-left: 2rem;
+    }
+    .campo{
+        display: none;
+    }
+    .camp{
+        display: none;
+    }
+}
