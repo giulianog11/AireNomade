@@ -1,0 +1,88 @@
+$parrafo: 'Montserrat', sans-serif;
+
+/* AVENTURAS */
+@media only screen and (max-width: 425px){
+    .aventuras__main{
+        h2{
+            font-size: 3rem;
+        }
+    }
+}
+
+/* COMBOS */
+@media only screen and (max-width: 680px){
+    .combos__sec1{
+        width: 100%;
+        background-color: #f7f7f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+    .sec1__section1{
+        width: 100%;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center; 
+        align-content: center;
+        background-image: url(../media/img/Combos6.1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+    .sec1__section2{
+        display: none;
+    }
+    .sec1__pic2{
+        display: none;
+    }
+    }
+}
+
+
+/* TIPS */
+@media only screen and (max-width: 780px){
+    .tips__steps{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .maini{
+        .structure{
+            max-width: 100%;
+            margin: 10px;
+            padding: 10px;
+        }
+        .par1{
+            color: white;
+            font-weight: bold;
+            font-family: $parrafo;
+            width: 100%;
+            padding-left: 2rem;
+        }
+        .par2{
+            background-image: url(../media/img/aire-nomade-62.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+        .parrafo2{
+            font-family: $parrafo;
+            margin: 20px;
+            text-align: justify;
+            font-weight: bolder;
+            color: white;
+        }
+        .campo{
+            display: none;
+        }
+        .camp{
+            display: none;
+        }
+    }
+}

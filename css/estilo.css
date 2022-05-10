@@ -1,0 +1,323 @@
+/* INDEX */
+.maini .car {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  max-height: 600px; }
+
+.maini .card:hover {
+  border: solid black 1px;
+  box-shadow: 2px 1px 10px black; }
+
+.maini .btn {
+  background-color: #a9937b;
+  color: black;
+  border: black solid; }
+  .maini .btn:hover {
+    background-color: #755d45;
+    border: #dcdbd9; }
+
+.maini h2 {
+  font-style: "Fredoka", sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 2.5rem; }
+
+.maini .an:hover {
+  transform: scale(1.2);
+  transition: all 3s; }
+
+.maini .benef {
+  padding: 0px;
+  margin-bottom: -10px;
+  margin-top: 40px; }
+
+.maini .benef1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: #dcdbd9; }
+
+.maini .structure, .maini .parrafo2 {
+  padding: 10px;
+  margin: 10px; }
+
+.maini .parrafo2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  color: black;
+  font-weight: bolder; }
+
+.maini .camp {
+  width: 90%;
+  border-radius: 2%; }
+  .maini .camp:hover {
+    transform: scale(1.05);
+    transition: 3s ease-in-out; }
+
+.maini .landing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 20px;
+  margin-top: 20px; }
+
+.maini .landin__card {
+  width: 450px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in; }
+  .maini .landin__card a {
+    color: white;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.maini .landin__card:hover {
+  transform: scale(1.04); }
+
+.maini .landin__card:nth-child(1) {
+  background-image: url(../media/img/Combo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.maini .landin__card:nth-child(2) {
+  background-image: url(../media/img/Card7.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.maini .landin__card:nth-child(3) {
+  background-image: url(../media/img/tips1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.maini .landin__card:nth-child(4) {
+  background-image: url(../media/img/aventuras3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* COMBOS */
+.combos__sec1 {
+  width: 100%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center; }
+  .combos__sec1 .sec1__section1 {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; }
+  .combos__sec1 h2 {
+    font-style: "Fredoka", sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 3rem; }
+  .combos__sec1 h3 {
+    font-size: 1rem;
+    font-style: italic; }
+  .combos__sec1 .pics, .combos__sec1 .sec1__pic1, .combos__sec1 .sec1__pic2 {
+    border: #0b0b0a solid 1px;
+    box-shadow: 2px 1px 10px black; }
+  .combos__sec1 .sec1__pic1 {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .combos__sec1 .sec1__section2 {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center; }
+  .combos__sec1 .sec1__pic2 {
+    width: 40vw; }
+
+/* TIPS */
+.tips__steps {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center; }
+  .tips__steps .tips__list {
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    line-height: 40px;
+    margin: 20px;
+    padding: 10px;
+    border: solid black 1px;
+    box-shadow: 2px 2px 1px black; }
+  .tips__steps .tips__ol {
+    list-style-type: upper-alpha;
+    color: #63603f; }
+  .tips__steps .tips__vid {
+    width: 300px;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    align-content: center; }
+
+/* AVENTURAS */
+.aventuras__main {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: url(../media/img/Aventuras2.1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .aventuras__main h2 {
+    font-style: "Fredoka", sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 4rem; }
+  .aventuras__main h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 20px;
+    color: white;
+    background: #0a0e0b;
+    background: linear-gradient(180deg, rgba(110, 119, 111, 0.281) 21%, rgba(65, 46, 6, 0.353) 76%);
+    opacity: 0.6; }
+    .aventuras__main h3:hover {
+      transform: scale(1.09);
+      transition: all 1s;
+      border: #0b0b0a solid 1px;
+      background-image: url(../media/img/aventuras3.jpeg);
+      background-size: cover;
+      background-position: center;
+      opacity: 1; }
+  .aventuras__main .aventuras__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center; }
+  .aventuras__main .aventuras__vid {
+    width: 300px;
+    box-shadow: 2px 2px 10px black;
+    margin: 10px;
+    padding: 3px; }
+    .aventuras__main .aventuras__vid:hover {
+      border: #0b0b0a solid 1px; }
+
+.nav-color {
+  font-size: 1.2rem; }
+
+.nav-link {
+  color: black; }
+
+.hover:hover {
+  transform: scale(1.05);
+  transition: 100ms ease;
+  opacity: 0.9; }
+
+footer {
+  background-color: black; }
+  footer h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    font-style: "Maven Pro", sans-serif;
+    color: white; }
+  footer .redess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  footer .logo2 {
+    width: 40px;
+    padding-right: 5px;
+    padding-left: 5px; }
+
+/* AVENTURAS */
+@media only screen and (max-width: 425px) {
+  .aventuras__main h2 {
+    font-size: 3rem; } }
+
+/* COMBOS */
+@media only screen and (max-width: 680px) {
+  .combos__sec1 {
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    .combos__sec1 .sec1__section1 {
+      width: 100%;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: center;
+      background-image: url(../media/img/Combos6.1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white; }
+    .combos__sec1 .sec1__section2 {
+      display: none; }
+    .combos__sec1 .sec1__pic2 {
+      display: none; } }
+
+/* TIPS */
+@media only screen and (max-width: 780px) {
+  .tips__steps {
+    display: flex;
+    flex-direction: column; } }
+
+@media only screen and (max-width: 991px) {
+  .maini .structure, .maini .parrafo2 {
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px; }
+  .maini .par1 {
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding-left: 2rem; }
+  .maini .par2 {
+    background-image: url(../media/img/aire-nomade-62.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .maini .parrafo2 {
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    color: white; }
+  .maini .campo {
+    display: none; }
+  .maini .camp {
+    display: none; } }
