@@ -220,7 +220,7 @@
       opacity: 1; }
   .aventuras__main .aventuras__box {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     align-content: center; }
   .aventuras__main .aventuras__vid {
@@ -241,6 +241,9 @@
   transform: scale(1.05);
   transition: 100ms ease;
   opacity: 0.9; }
+
+.img-fluid {
+  width: 100%; }
 
 footer {
   background-color: black; }
@@ -307,7 +310,7 @@ footer {
     width: 100%;
     padding-left: 2rem; }
   .maini .par2 {
-    background-image: url(../media/img/aire-nomade-62.jpg);
+    background-image: url(../media/img/anblur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; }
