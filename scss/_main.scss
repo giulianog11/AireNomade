@@ -32,11 +32,6 @@ $parrafo: "Montserrat", sans-serif;
 }
 
 @mixin adventure{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   border: solid black 6px;
   border-radius: 5%;
   margin: 20px;
@@ -276,17 +271,49 @@ $parrafo: "Montserrat", sans-serif;
     background: rgb(10, 14, 11);
     background: linear-gradient(180deg, rgba(110, 119, 111, 0.281) 21%, rgba(65, 46, 6, 0.353) 76%);
     opacity: 0.6;
-    &:hover{
-      transform: scale(1.09);
-      transition: all 1s;
-      border: #0b0b0a solid 1px;
-      background-image: url(../media/img/aventuras3.jpeg);
-      background-size: cover;
-      background-position: center;
-      opacity: 1;
-    }
+  }
+  .tit_1:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av1.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  .tit_2:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av2.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  .tit_3:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av3.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  .tit_4:hover{
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av4.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
   }
   .aventuras__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     @include adventure;
     &:hover{
     transition: all 2s;
@@ -297,6 +324,11 @@ $parrafo: "Montserrat", sans-serif;
     }
   }
   .aventuras__box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     @include adventure;
     &:hover{
     transition: all 2s;
@@ -307,6 +339,11 @@ $parrafo: "Montserrat", sans-serif;
     }
   }
   .aventuras__box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     @include adventure;
     &:hover{
     transition: all 2s;
@@ -317,6 +354,11 @@ $parrafo: "Montserrat", sans-serif;
     }
   }
   .aventuras__box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     @include adventure;
     &:hover{
     transition: all 2s;

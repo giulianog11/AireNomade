@@ -214,14 +214,38 @@
     background: #0a0e0b;
     background: linear-gradient(180deg, rgba(110, 119, 111, 0.281) 21%, rgba(65, 46, 6, 0.353) 76%);
     opacity: 0.6; }
-    .aventuras__main h3:hover {
-      transform: scale(1.09);
-      transition: all 1s;
-      border: #0b0b0a solid 1px;
-      background-image: url(../media/img/aventuras3.jpeg);
-      background-size: cover;
-      background-position: center;
-      opacity: 1; }
+  .aventuras__main .tit_1:hover {
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av1.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1; }
+  .aventuras__main .tit_2:hover {
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av2.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1; }
+  .aventuras__main .tit_3:hover {
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av3.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1; }
+  .aventuras__main .tit_4:hover {
+    transform: scale(1.09);
+    transition: all 1s;
+    border: #0b0b0a solid 1px;
+    background-image: url(../media/img/av4.1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1; }
   .aventuras__main .aventuras__box {
     display: flex;
     flex-direction: row;
@@ -341,6 +365,24 @@ footer {
 @media only screen and (max-width: 425px) {
   .aventuras__main h2 {
     font-size: 3rem; } }
+
+@media only screen and (max-width: 752px) {
+  .aventuras__main .aventuras__box {
+    display: flex;
+    flex-direction: column; }
+  .aventuras__main .aventuras__box2 {
+    display: flex;
+    flex-direction: column; }
+  .aventuras__main .aventuras__box3 {
+    display: flex;
+    flex-direction: column; }
+  .aventuras__main .aventuras__box4 {
+    display: flex;
+    flex-direction: column; }
+  .aventuras__main .box__1 {
+    width: 80%;
+    align-items: center;
+    margin: 15px; } }
 
 /* COMBOS */
 @media only screen and (max-width: 680px) {
